@@ -1,5 +1,11 @@
 <app-nav-bar></app-nav-bar>
 
 <div class="container mt-4">
-  <app-course-list></app-course-list>
+  <!-- Referência não mais necessária, porque
+    agora este componenete é chamado por rota!
+    app-course-list></app-course-list>
+  -->
+  <!--AGORA, usando Switch para troca de componentes 
+    em rotas-->
+    <router-outlet></router-outlet>
 </div>

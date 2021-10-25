@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Course } from './course';
 
 
 @Component({
@@ -7,5 +8,5 @@ import { Component } from "@angular/core";
 })
 export class CourseListComponent {
 
-    
+    courses: Course[] = [];
 }

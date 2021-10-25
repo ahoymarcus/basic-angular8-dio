@@ -1,0 +1,20 @@
+{{ title }}
+
+
+<br />
+
+
+<h2>One Way Data Bind</h2>
+{{ name }}<br />
+<!--One Way Data Bind-->
+<input [ngModel]="name" name="name" />
+
+
+<br />
+<br />
+
+
+<h2>Two Way Data Bind</h2>
+{{ twoWayDatabindtest }}<br />
+<!--Two Way Data Bind-->
+<input [(ngModel)]="twoWayDatabindtest" name="twoWayDatabindtest" />

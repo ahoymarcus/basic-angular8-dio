@@ -25,8 +25,12 @@ export class CourseService {
         return this.httpClient.get<Course>(`${this.coursesUrl}/${id}`); 
     }
 
-    save(course: Course): void {
-        const index = COURSES.findIndex(courseIterator => courseIterator.id === course.id);
+    save(course: Course): Observable<Course> {
+        if (course.id) {
+            return this.httpClient.put<Course>(`${this.coursesUrl}/${course.id}`, course);
+        } else {
+            return this.httpClient.post<Course>(`${this.coursesUrl}`, course);
+        }
     }
 
 }

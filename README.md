@@ -33,14 +33,14 @@ Dependências:
 <br />
 
 ### Courses List App home page:             
-![Imagem de Courses List App home page](/assets/images/courses-home-page.png)
+![Imagem de Courses List App home page](/src/assets/images/courses-home-page.png)
 
 
 
 <br />
 
 ### Courses List App info page:             
-![Imagem de Courses List App info page](/assets/images/courses-info-page.png)
+![Imagem de Courses List App info page](/src/assets/images/courses-info-page.png)
 
 
 

@@ -4,7 +4,7 @@ Curso de introdução ao framework Angular 8.[^1]
 
 <br />
 
-[Freecodecamp.org](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
+[Digital Innovation One](https://web.digitalinnovation.one/home)
 
 
 
@@ -32,15 +32,15 @@ Dependências:
 
 <br />
 
-### Metric-Imperial Converter App home page:          
-![File Metadata App home page](/public/images/)
+### Courses List App home page:          
+![Imagem de Courses List App home page](/assets/images/courses-home-page.png)
 
 
 
 <br />
 
-### Fazendo uma requisição POST para upload de um arquivo e devolvendo ao cliente metadados como resposta:          
-![Imagem de uma requisição POST para upload de um arquivo e devolvendo ao cliente metadados como resposta](/public/images/)
+### Courses List App info page:          
+![Imagem de Courses List App info page](/assets/images/courses-info-page.png)
 
 
 

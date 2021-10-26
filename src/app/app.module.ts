@@ -32,6 +32,10 @@ import { CourseInfoComponent } from './courses/course-info.component';
         pathMatch: 'full'
       },
       {
+        path: 'courses/info/:id', 
+        component: CourseInfoComponent 
+      },
+      {
         path: 'courses',
         component: CourseListComponent
       },
@@ -39,9 +43,7 @@ import { CourseInfoComponent } from './courses/course-info.component';
         path: '**', 
         component: Error404Component
       },
-      {
-        path: 'courses/info/:id', component: CourseInfoComponent 
-      }
+      
     ])
   ],
   providers: [],

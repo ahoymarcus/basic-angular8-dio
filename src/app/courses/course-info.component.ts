@@ -11,6 +11,6 @@ export class CourseInfoComponent implements OnInit {
     constructor(private activatedRoute: ActivatedRoute) {}
     
     ngOnInit(): void {
-        this.courseId = +this.activatedRoute.snapshot.paramMap.get('id');
+        //this.courseId = +this.activatedRoute.snapshot.paramMap.get('id');
     }
 }

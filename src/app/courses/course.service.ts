@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Course } from './course';
 
@@ -10,8 +11,13 @@ import { Course } from './course';
 })
 export class CourseService {
 
+    private coursesUrl: string = 'http://localhost:3100/api/courses';
+    
+    // Injeção de dependência do módulo
+    // @angular/common/http/HttpClientModule
+    constructor(private httpClient: HttpClient) {}
     retrieveAll(): Course[] {
-        return COURSES;
+        return this.httpClient.get<Course[]>(this.coursesUrl);
     }
 
     
@@ -21,6 +27,9 @@ export class CourseService {
         return result!; 
     }
 
+    save(course: Course): void {
+        const index = COURSES.findIndex(courseIterator => courseIterator.id === course.id);
+    }
 
 }
 

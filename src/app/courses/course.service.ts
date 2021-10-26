@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Course } from './course';
-
+import { Observable } from 'rxjs';
 
 
 // Tornar classe eletiva para Injeção 
@@ -16,7 +16,7 @@ export class CourseService {
     // Injeção de dependência do módulo
     // @angular/common/http/HttpClientModule
     constructor(private httpClient: HttpClient) {}
-    retrieveAll(): Course[] {
+    retrieveAll(): Observable<Course[]> {
         return this.httpClient.get<Course[]>(this.coursesUrl);
     }
 

@@ -50,8 +50,8 @@ Dependências:
 <br />
 
 
-### Resultado final do projeto em Freecodecamp.org:               
-![Resultado final do projeto em Freecodecamp.org](/public/images/)
+### Fazendo uma requisição POST na página /courses/info usando o cliente HTTP do Angular:               
+![Imagem de uma requisição POST na página /courses/info usando o cliente HTTP do Angular](/public/images/making-post-requisition-course-info-page.png)
 
 
 

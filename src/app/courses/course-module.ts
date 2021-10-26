@@ -6,7 +6,7 @@ import { CommonModule } from "@angular/common";
 
 import { CourseInfoComponent } from "./course-info.component";
 import { CourseListComponent } from "./course-list.component";
-import { StarComponent } from "../star/star.component";
+import { StarModule } from "../shared/component/star/star.module";
 
 
 
@@ -15,11 +15,11 @@ import { StarComponent } from "../star/star.component";
         CourseListComponent,
         CourseInfoComponent,
         ReplacePipe,
-        StarComponent
     ],
     imports: [
         CommonModule,
         FormsModule,
+        StarModule,
         RouterModule.forChild([
             {
                 path: 'courses',

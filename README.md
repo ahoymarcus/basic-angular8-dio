@@ -65,13 +65,6 @@ Dependências:
 
 
 
-<br />
-
-
-### Resultado final do projeto em Freecodecamp.org:               
-![Resultado final do projeto em Freecodecamp.org](/src/assets/images/)
-
-
 
 
 <br />

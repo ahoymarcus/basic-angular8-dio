@@ -7,7 +7,18 @@
         <label class="col-sm-2 col-form-label">Name:</label>
     
         <div class="col-sm-10">
-            <input [(ngModel)]="course.name" name="name" #courseName="ngModel" class="form-control" />
+            <input [(ngModel)]="course.name" required name="name" #courseName="ngModel" class="form-control" />
+
+            <br />
+
+            <div class="invalid-feedback">
+                <span>Course name is required!</span>
+                {{ courseName.value }}
+                {{ courseName.invalid }}
+            </div>
+
+            <button class="btn btn-primary mr-2">Save</button>
+            <button [routerLink]="['/courses']" class="btn btn-secondary">Back</button>
         </div>
     </div>
 </form>

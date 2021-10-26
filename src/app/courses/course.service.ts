@@ -13,6 +13,15 @@ export class CourseService {
     retrieveAll(): Course[] {
         return COURSES;
     }
+
+    
+    retrieveById(id: number): Course {
+        let result = COURSES.find((courseIterator: Course) => courseIterator.id === id);
+
+        return result!; 
+    }
+
+
 }
 
 

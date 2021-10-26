@@ -30,7 +30,8 @@ export class CourseListComponent implements OnInit {
                 // Posto aqui em razão da assincronia
                 // da operação
                 this.filteredCourses = this._courses;
-            }
+            },
+            error: err => console.log('Error: ', err)
         });
     }
 

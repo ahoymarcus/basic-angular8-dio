@@ -21,10 +21,8 @@ export class CourseService {
     }
 
     
-    retrieveById(id: number): Course {
-        let result = COURSES.find((courseIterator: Course) => courseIterator.id === id);
-
-        return result!; 
+    retrieveById(id: number): Observable<Course> {
+        return this.httpClient.get<Course>(`${this.coursesUrl}/${id}`); 
     }
 
     save(course: Course): void {

@@ -51,7 +51,7 @@ Dependências:
 
 
 ### Fazendo uma requisição POST na página /courses/info usando o cliente HTTP do Angular:               
-![Imagem de uma requisição POST na página /courses/info usando o cliente HTTP do Angular](/public/images/making-post-requisition-course-info-page.png)
+![Imagem de uma requisição POST na página /courses/info usando o cliente HTTP do Angular](/src/assets/images/making-post-requisition-course-info-page.png)
 
 
 

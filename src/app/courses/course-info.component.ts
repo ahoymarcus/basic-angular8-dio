@@ -29,6 +29,10 @@ export class CourseInfoComponent implements OnInit {
             error: err => console.log('Error: ', err)
         });
     }
+
+    save(): void {
+        this.courseService.save(this.course);
+    }
 }
 
 

@@ -60,7 +60,7 @@ Dependências:
 
 
 ### Fazendo uma requisição DELETE na página /courses/list usando o cliente HTTP do Angular:               
-![Imagem de uma requisição DELETE na página /courses/list usando o cliente HTTP do Angular](/public/images/making-delete-requisition-em-course-list-page.png)
+![Imagem de uma requisição DELETE na página /courses/list usando o cliente HTTP do Angular](/src/assets/images/making-delete-requisition-em-course-list-page.png)
 
 
 
@@ -69,7 +69,7 @@ Dependências:
 
 
 ### Resultado final do projeto em Freecodecamp.org:               
-![Resultado final do projeto em Freecodecamp.org](/public/images/)
+![Resultado final do projeto em Freecodecamp.org](/src/assets/images/)
 
 
 
